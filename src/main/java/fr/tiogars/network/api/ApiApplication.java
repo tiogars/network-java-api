@@ -1,4 +1,4 @@
-package fr.tiogars.api;
+package fr.tiogars.network.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
