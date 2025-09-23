@@ -6,4 +6,5 @@ import fr.tiogars.network.api.network.entities.NetworkEntity;
 
 public interface NetworkRepository extends JpaRepository<NetworkEntity, Long> {
 
+    Iterable<NetworkEntity> findByName(String name);
 }
